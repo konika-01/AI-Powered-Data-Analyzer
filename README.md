@@ -47,7 +47,9 @@ A utility module where all reusable functions are defined using Pandas and other
 - Displays a **warning** if no dataset is uploaded in `Home.py`.  
 - Once data is available, applies utility functions from `utils.py`.  
 - Generates **KPIs** for selected numeric columns.  
-- Creates interactive **charts** and dashboard visualizations.  
+- Creates interactive **charts** and dashboard visualizations.
+- Generates stastical summary of the data.
+- Gives sample of the data.  
 
 ---
 
