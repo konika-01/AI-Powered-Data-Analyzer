@@ -10,10 +10,6 @@ import utilis as ut
 import altair as alt
 import seaborn as sns
 
-# Setting Page Configuration
-
-st.set_page_config(layout='wide')
-
 st.title('Dashboard')
 
 # Giving Warning when dataset is not uploaded
