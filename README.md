@@ -4,7 +4,7 @@ An interactive Streamlit web app that allows users to **upload CSV files**, expl
 
 ---
 #### Click here - 👉 [AI-Powered Data Analyzer](https://ai-powered-data-analyzer-4vmbeigc64kmmeuj6urgcw.streamlit.app/)
-- Enrich your experince using Sample Data from the repsitory. 
+- Enrich your experience using Sample Data from the repository. 
 ---
 ## 🛠️ Libraries Used
 - Streamlit
