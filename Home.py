@@ -55,8 +55,8 @@ if df is None:
 st.subheader("Summary Insights")
 summary_text=f"""
     - The dataset contains **{df.shape[0]} rows** and **{df.shape[1]} columns**.  
-    - On average, sales are around **{df['sales'].mean():.2f}**, with a maximum of **{df['sales'].max():.2f}**.  
-    - Profit values range between **{df['profit'].min():.2f}** and **{df['profit'].max():.2f}**.  
+    - On average, sales are around **{df['Sales'].mean():.2f}**, with a maximum of **{df['sales'].max():.2f}**.  
+    - Profit values range between **{df['Profit'].min():.2f}** and **{df['profit'].max():.2f}**.  
     - The dataset has about **{df.isna().mean().mean()*100:.2f}% missing values**, which should be handled for better analysis.  
     - Categories and SubCategories show balanced distribution, with no single category dominating heavily.  
     """
