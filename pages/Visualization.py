@@ -33,7 +33,7 @@ cat_cols,num_cols,date_cols,time_cols = ut.separate_cols(df)
 
 # -> Generating KPI's
 
-base = st.session_state[df]
+base = st.session_state['df']
 
 k1, k2, k3, k4 = st.columns(4)
 
