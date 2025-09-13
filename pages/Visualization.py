@@ -35,7 +35,7 @@ cat_cols,num_cols,date_cols,time_cols = ut.separate_cols(df)
 
 k1, k2, k3, k4 = st.columns(4)
 
-k1.metric("Rows", f"{len(df):,}")
+k1.metric("Rows",df.shape[0])
 k2.metric("Columns", df.shape[1])
 k3.metric("Missing %", f"{df.isna().mean().mean()*100:.2f}")
 k4.metric("Numeric / Categorical", f"{len(num_cols)} / {len(cat_cols)}")
