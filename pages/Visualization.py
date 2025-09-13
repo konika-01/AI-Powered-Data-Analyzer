@@ -33,11 +33,13 @@ cat_cols,num_cols,date_cols,time_cols = ut.separate_cols(df)
 
 # -> Generating KPI's
 
+base = st.session_state.get(df)
+
 k1, k2, k3, k4 = st.columns(4)
 
-k1.metric("Rows",df.shape[0])
-k2.metric("Columns", df.shape[1])
-k3.metric("Missing %", f"{df.isna().mean().mean()*100:.2f}")
+k1.metric("Rows",base.shape[0])
+k2.metric("Columns", base.shape[1])
+k3.metric("Missing %", f"{base.isna().mean().mean()*100:.2f}")
 k4.metric("Numeric / Categorical", f"{len(num_cols)} / {len(cat_cols)}")
 
 st.markdown("""<style>[data-testid="stMetric"] { background:#f8fafc; padding:12px; border-radius:12px; }</style>""", unsafe_allow_html=True)
