@@ -132,4 +132,5 @@ st.divider()
 st.subheader("Statistical Summary")
 st.dataframe(df.describe(include='all').T)
 
-
+st.subheader('Get Preview of Data')
+st.dataframe(df.sample(10))
