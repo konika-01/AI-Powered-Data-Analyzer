@@ -1,0 +1,101 @@
+OrderID,OrderDate,Category,Region,sales,Quantity,profit,Remarks
+1001,01-01-2023,Electronics,North,293,2,50,First order
+1002,02-01-2023,Furniture,South,37,1,120,High value
+1003,03-01-2023,Electronics,East,117,3,30,Regular
+1004,04-01-2023,Clothing,West,53,5,90,Discount applied
+1005,05-01-2023,Clothing,North,349,2,200,Repeat customer
+1006,06-01-2023,Furniture,South,295,4,210,Bulk order
+1007,07-01-2023,Electronics,East,455,1,20,Returned
+1008,08-01-2023,Clothing,West,340,2,100,Regular
+1009,09-01-2023,Furniture,North,137,3,150,New customer
+1010,10-01-2023,Electronics,South,357,2,180,End of season
+1010,11-01-2023,Electronics,North,482,2,224,First order
+1010,12-01-2023,Furniture,South,240,1,908,High value
+1010,13-01-2023,Electronics,East,199,3,1604,Regular
+1010,14-01-2023,Clothing,West,234,5,944,Discount applied
+1010,15-01-2023,Clothing,North,394,2,33,Repeat customer
+1010,16-01-2023,Furniture,South,386,4,52,Bulk order
+1010,17-01-2023,Electronics,East,292,1,1851,Returned
+1010,18-01-2023,Clothing,West,455,2,587,Regular
+1010,19-01-2023,Furniture,North,130,3,1335,New customer
+1010,20-01-2023,Electronics,South,125,2,27,End of season
+1010,21-01-2023,Electronics,North,470,2,1894,First order
+1010,22-01-2023,Furniture,South,242,1,909,High value
+1010,23-01-2023,Electronics,East,268,3,311,Regular
+1010,24-01-2023,Clothing,West,368,5,67,Discount applied
+1010,25-01-2023,Clothing,North,207,2,1790,Repeat customer
+1010,26-01-2023,Furniture,South,465,4,1359,Bulk order
+1010,27-01-2023,Electronics,East,420,1,1619,Returned
+1010,28-01-2023,Clothing,West,146,2,1254,Regular
+1010,29-01-2023,Furniture,North,327,3,1356,New customer
+1010,30-01-2023,Electronics,South,174,2,919,End of season
+1010,31-01-2023,Electronics,North,234,2,123,First order
+1010,01-02-2023,Furniture,South,316,1,1202,High value
+1010,02-02-2023,Electronics,East,243,3,236,Regular
+1010,03-02-2023,Clothing,West,181,5,1619,Discount applied
+1010,04-02-2023,Clothing,North,161,2,1988,Repeat customer
+1010,05-02-2023,Furniture,South,472,4,542,Bulk order
+1010,06-02-2023,Electronics,East,324,1,282,Returned
+1010,07-02-2023,Clothing,West,383,2,1819,Regular
+1010,08-02-2023,Furniture,North,169,3,882,New customer
+1010,09-02-2023,Electronics,South,105,2,1557,End of season
+1010,10-02-2023,Electronics,North,481,2,664,First order
+1010,11-02-2023,Furniture,South,242,1,1725,High value
+1010,12-02-2023,Electronics,East,189,3,874,Regular
+1010,13-02-2023,Clothing,West,122,5,1359,Discount applied
+1010,14-02-2023,Clothing,North,327,2,1495,Repeat customer
+1010,15-02-2023,Furniture,South,451,4,66,Bulk order
+1010,16-02-2023,Electronics,East,61,1,1393,Returned
+1010,17-02-2023,Clothing,West,277,2,1635,Regular
+1010,18-02-2023,Furniture,North,304,3,1865,New customer
+1010,19-02-2023,Electronics,South,395,2,211,End of season
+1010,20-02-2023,Electronics,North,396,2,1414,First order
+1010,21-02-2023,Furniture,South,122,1,859,High value
+1010,22-02-2023,Electronics,East,110,3,528,Regular
+1010,23-02-2023,Clothing,West,122,5,1881,Discount applied
+1010,24-02-2023,Clothing,North,449,2,1473,Repeat customer
+1010,25-02-2023,Furniture,South,90,4,1100,Bulk order
+1010,26-02-2023,Electronics,East,196,1,1682,Returned
+1010,27-02-2023,Clothing,West,122,2,257,Regular
+1010,28-02-2023,Furniture,North,11,3,131,New customer
+1010,01-03-2023,Electronics,South,139,2,1889,End of season
+1010,02-03-2023,Electronics,North,229,2,656,First order
+1010,03-03-2023,Furniture,South,63,1,136,High value
+1010,04-03-2023,Electronics,East,352,3,58,Regular
+1010,05-03-2023,Clothing,West,494,5,752,Discount applied
+1010,06-03-2023,Clothing,North,233,2,1721,Repeat customer
+1010,07-03-2023,Furniture,South,234,4,620,Bulk order
+1010,08-03-2023,Electronics,East,394,1,1834,Returned
+1010,09-03-2023,Clothing,West,412,2,1967,Regular
+1010,10-03-2023,Furniture,North,135,3,1663,New customer
+1010,11-03-2023,Electronics,South,139,2,1407,End of season
+1010,12-03-2023,Electronics,North,62,2,747,First order
+1010,13-03-2023,Furniture,South,181,1,354,High value
+1010,14-03-2023,Electronics,East,227,3,201,Regular
+1010,15-03-2023,Clothing,West,169,5,1010,Discount applied
+1010,16-03-2023,Clothing,North,207,2,418,Repeat customer
+1010,17-03-2023,Furniture,South,425,4,592,Bulk order
+1010,18-03-2023,Electronics,East,256,1,28,Returned
+1010,19-03-2023,Clothing,West,333,2,667,Regular
+1010,20-03-2023,Furniture,North,448,3,499,New customer
+1010,21-03-2023,Electronics,South,212,2,239,End of season
+1010,22-03-2023,Electronics,North,193,2,987,First order
+1010,23-03-2023,Furniture,South,132,1,1141,High value
+1010,24-03-2023,Electronics,East,410,3,1238,Regular
+1010,25-03-2023,Clothing,West,264,5,1646,Discount applied
+1010,26-03-2023,Clothing,North,303,2,990,Repeat customer
+1010,27-03-2023,Furniture,South,289,4,149,Bulk order
+1010,28-03-2023,Electronics,East,334,1,1167,Returned
+1010,29-03-2023,Clothing,West,381,2,1969,Regular
+1010,30-03-2023,Furniture,North,107,3,626,New customer
+1010,31-03-2023,Electronics,South,207,2,1519,End of season
+1010,01-04-2023,Electronics,North,479,2,1752,First order
+1010,02-04-2023,Furniture,South,404,1,1632,High value
+1010,03-04-2023,Electronics,East,249,3,994,Regular
+1010,04-04-2023,Clothing,West,153,5,1157,Discount applied
+1010,05-04-2023,Clothing,North,106,2,1517,Repeat customer
+1010,06-04-2023,Furniture,South,210,4,1017,Bulk order
+1010,07-04-2023,Electronics,East,133,1,299,Returned
+1010,08-04-2023,Clothing,West,196,2,1371,Regular
+1010,09-04-2023,Furniture,North,335,3,1453,New customer
+1010,10-04-2023,Electronics,South,473,2,880,End of season
