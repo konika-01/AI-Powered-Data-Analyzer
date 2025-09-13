@@ -3,7 +3,7 @@
 An interactive Streamlit web app that allows users to **upload CSV files**, explore **summary insights**, view an interactive **dashboard**, and finally **export the summary to PDF**.
 
 ---
-Click here - 👉 [AI-Powered Data Analyzer](https://ai-powered-data-analyzer-4vmbeigc64kmmeuj6urgcw.streamlit.app/)
+### Click here - 👉 [AI-Powered Data Analyzer](https://ai-powered-data-analyzer-4vmbeigc64kmmeuj6urgcw.streamlit.app/)
 ---
 ## 🛠️ Libraries Used
 - Streamlit
