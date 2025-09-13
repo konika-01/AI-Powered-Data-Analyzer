@@ -48,7 +48,7 @@ A utility module where all reusable functions are defined using Pandas and other
 - Once data is available, applies utility functions from `utils.py`.  
 - Generates **KPIs** for selected numeric columns.  
 - Creates interactive **charts** and dashboard visualizations.
-- Generates stastical summary of the data.
+- Generates **statistical summary** of the data.
 - Gives sample of the data.  
 
 ---
