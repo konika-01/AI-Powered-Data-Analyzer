@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import utilis as ut
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module='pandas')
 import altair as alt
