@@ -9,6 +9,7 @@ import altair as alt
 from io import BytesIO
 from datetime import datetime
 from reportlab.platypus import SimpleDocTemplate
+from reportlab.lib.styles import getSampleStyleSheet
 
 
 # Function for cleanin data
