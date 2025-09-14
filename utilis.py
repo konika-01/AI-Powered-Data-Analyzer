@@ -2,12 +2,14 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import utilis as ut
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module='pandas')
 import altair as alt
 from io import BytesIO
 from datetime import datetime
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.pagesizes import A4
 
 # Function for cleanin data
 def clean_data(df):
