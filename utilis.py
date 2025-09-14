@@ -8,9 +8,7 @@ warnings.filterwarnings("ignore", category=UserWarning, module='pandas')
 import altair as alt
 from io import BytesIO
 from datetime import datetime
-from reportlab.platypus import SimpleDocTemplate
-from reportlab.lib.styles import getSampleStyleSheet
-
+import reportlab as rt
 
 # Function for cleanin data
 def clean_data(df):
@@ -84,8 +82,8 @@ def hist_df(series: pd.Series, bins: int = 30) -> pd.DataFrame:
 
 def export_summary_to_pdf(summary_text):
     buf = BytesIO()
-    doc = SimpleDocTemplate(buf, pagesize=A4)
-    styles = getSampleStyleSheet()
+    doc = rt.SimpleDocTemplate(buf, pagesize=A4)
+    styles = rt.getSampleStyleSheet()
     story = []
 
     story.append(Paragraph("Summary Insights", styles["Title"]))
