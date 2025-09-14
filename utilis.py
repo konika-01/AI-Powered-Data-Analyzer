@@ -8,6 +8,8 @@ warnings.filterwarnings("ignore", category=UserWarning, module='pandas')
 import altair as alt
 from io import BytesIO
 from datetime import datetime
+from reportlab.platypus import SimpleDocTemplate
+
 
 # Function for cleanin data
 def clean_data(df):
