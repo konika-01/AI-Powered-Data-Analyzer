@@ -69,8 +69,8 @@ if export:
         if df_for_pdf is None:
             st.warning('Please upload a CSV file first.')
         else:
-                pdf_bytes = ut.export_summary_to_pdf(summary_text)
-                st.download_button(label="Download summary_insights.pdf",data=pdf_bytes,file_name="summary_insights.pdf",mime="application/pdf")
+            pdf_bytes = ut.export_summary_to_pdf(summary_text)
+            st.download_button(label="Download summary_insights.pdf",data=pdf_bytes,file_name="summary_insights.pdf",mime="application/pdf")
 
 
 
