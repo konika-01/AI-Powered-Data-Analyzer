@@ -70,6 +70,7 @@ if export:
             st.warning('Please upload a CSV file first.')
         else:
                 pdf_bytes = ut.export_summary_to_pdf(summary_text)
+                preview = df.sample(min(len(df), 10)).reset_index(drop=True)
                 st.download_button(label="Download summary_insights.pdf",data=pdf_bytes,file_name="summary_insights.pdf",mime="application/pdf")
 
 
