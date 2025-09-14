@@ -4,4 +4,4 @@ matplotlib
 seaborn
 streamlit
 altair
-repotlab
+reportlab==3.6.13
